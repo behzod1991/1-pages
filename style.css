@@ -1,0 +1,408 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url(16.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 610px;
+  width: 100%;
+  color: white;
+}
+.header .phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 70%;
+  margin: 0 auto;
+}
+.header .phone .phon {
+  display: flex;
+}
+.header .phone .phon i {
+  margin-right: 10px;
+}
+.header .phone button {
+  padding: 10px 16px;
+  background-color: rgb(165, 23, 221);
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.header .phone button:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.header .yammoe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 70%;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.header .yammoe ul.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  list-style: none;
+  height: 15vh;
+}
+.header .yammoe ul.menu li:nth-child(1) a {
+  color: rgb(165, 23, 221);
+}
+.header .yammoe ul.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
+.header .yammoe ul.menu a:hover {
+  color: rgb(165, 23, 221);
+}
+.header .netus {
+  width: 35%;
+  margin: 0 auto;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  text-transform: capitalize;
+}
+.header .netus h1 {
+  font-size: 40px;
+}
+.header .netus h3 {
+  margin: 40px 0 15px 0;
+}
+.header .netus h5 {
+  margin: 20px 0;
+}
+.header .netus .egestas {
+  width: 50%;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header .netus .egestas button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-color: white;
+}
+.header .netus .egestas button:nth-child(1) {
+  background-color: rgb(165, 23, 221);
+  color: white;
+}
+.header .netus .egestas button:nth-child(1):hover {
+  border-color: white;
+  color: white;
+  background-color: transparent;
+}
+.header .netus .egestas button:nth-child(2) {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+.header .netus .egestas button:nth-child(2):hover {
+  color: white;
+  background-color: rgb(165, 23, 221);
+}
+
+section.nulla {
+  height: 610px;
+  width: 100%;
+  background-image: url(16.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+section.nulla .orta {
+  width: 70%;
+  height: 420px;
+  margin: auto auto;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+section.nulla .orta .turpis {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+section.nulla .orta .turpis h3 {
+  font-size: 10px;
+}
+section.nulla .orta .ante {
+  width: 80%;
+  height: 300px;
+  margin: auto auto;
+  display: flex;
+  justify-content: space-between;
+}
+section.nulla .orta .ante .ante-1 {
+  width: 48%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+section.nulla .orta .ante .ante-1 .ante-01 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+section.nulla .orta .ante .ante-1 .ante-01:hover .circle .circle-1 {
+  background-color: rgb(73, 73, 218);
+}
+section.nulla .orta .ante .ante-1 .ante-01:hover .circle .circle-1 i {
+  color: white;
+}
+section.nulla .orta .ante .ante-1 .ante-01 .circle {
+  width: 25%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.nulla .orta .ante .ante-1 .ante-01 .circle .circle-1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 226, 226);
+  transition: 1s;
+}
+section.nulla .orta .ante .ante-1 .ante-01 .circle .circle-1 i {
+  color: rgb(160, 177, 235);
+}
+section.nulla .orta .ante .ante-1 .ante-01 .nisl {
+  width: 75%;
+  height: 100%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+section.nulla .orta .ante .ante-1 .ante-01 .nisl h2 {
+  margin: 10px 0;
+}
+section.nulla .orta .ante .ante-2 {
+  width: 48%;
+  height: 300px;
+  border: 1px solid rgb(109, 106, 106);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section.nulla .orta .ante .ante-2 .ante-02 {
+  width: 80%;
+  height: 240px;
+  background-image: url(16.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.nulla .orta .ante .ante-2 .ante-03 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(9, 82, 240, 0.5);
+  opacity: 0;
+  transition: 0.5s;
+}
+section.nulla .orta .ante .ante-2 .ante-03 i {
+  color: white;
+  font-size: 30px;
+}
+section.nulla .orta .ante .ante-2 .ante-03:hover {
+  opacity: 1;
+}
+
+section.footer {
+  height: 635px;
+  width: 100%;
+  background-image: url(17.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+section.footer .footer-1 {
+  height: 400px;
+  width: 100%;
+}
+section.footer .footer-1 .cards {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.footer .footer-1 .cards .card {
+  width: 22%;
+  height: 360px;
+}
+section.footer .footer-1 .cards .card .div {
+  height: 70px;
+  width: 100%;
+}
+section.footer .footer-1 .cards .card:nth-child(1) h3 {
+  margin-bottom: 50px;
+  font-weight: 100;
+}
+section.footer .footer-1 .cards .card:nth-child(1) h3 a {
+  text-decoration: none;
+}
+section.footer .footer-1 .cards .card:nth-child(1) .input {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.footer .footer-1 .cards .card:nth-child(1) .input .input-2 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(180, 177, 177, 0.5);
+  transition: 0.5s;
+}
+section.footer .footer-1 .cards .card:nth-child(1) .input .input-2:hover {
+  background-color: rgba(55, 79, 212, 0.5);
+}
+section.footer .footer-1 .cards .card:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+section.footer .footer-1 .cards .card:nth-child(2) .leo {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(131, 128, 128);
+  display: flex;
+  align-items: center;
+}
+section.footer .footer-1 .cards .card:nth-child(2) .leo:nth-child(6) {
+  border-bottom: none;
+}
+section.footer .footer-1 .cards .card:nth-child(2) .leo a {
+  text-decoration: none;
+  font-size: 20px;
+}
+section.footer .footer-1 .cards .card:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+}
+section.footer .footer-1 .cards .card:nth-child(3) h3 {
+  margin-bottom: 30px;
+}
+section.footer .footer-1 .cards .card:nth-child(3) input {
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: rgba(168, 162, 162, 0.5);
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+section.footer .footer-1 .cards .card:nth-child(3) input:focus {
+  background-color: rgba(14, 46, 226, 0.5);
+}
+section.footer .footer-1 .cards .card:nth-child(3) input:nth-child(5) {
+  background-color: blue;
+  color: white;
+  width: 50%;
+}
+section.footer .footer-1 .cards .card:nth-child(3) input:nth-child(5):hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+section.footer .footer-1 .cards .card:nth-child(4) .dia {
+  height: 290px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+section.footer .footer-1 .cards .card:nth-child(4) .dia .diam {
+  height: 86px;
+  width: 100%;
+  background-color: rgba(248, 242, 242, 0.5);
+  transition: 1s;
+}
+section.footer .footer-1 .cards .card:nth-child(4) .dia .diam .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(103, 121, 224, 0.5);
+  opacity: 0;
+}
+section.footer .footer-1 .cards .card:nth-child(4) .dia .diam .icon i {
+  color: white;
+  font-size: 30px;
+}
+section.footer .footer-1 .cards .card:nth-child(4) .dia .diam .icon:hover {
+  opacity: 1;
+}
+section.footer .footer-2 {
+  height: 100px;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(180, 176, 176);
+  margin: 0 auto;
+  border-left: none;
+  border-right: none;
+}
+section.footer .footer-2 ul.menu {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+section.footer .footer-2 ul.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  transition: 0.5s;
+}
+section.footer .footer-2 ul.menu a:hover {
+  color: blue;
+}
+section.footer .footer-3 {
+  height: 135px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
